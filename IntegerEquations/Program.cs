@@ -19,6 +19,7 @@ namespace IntegerEquations
 
             int[,] matrix = new int[equalsNumber + unknowsNumber, unknowsNumber + 1];
 
+            // read matrix
             for (int row = 0; row < equalsNumber; row++)
             {
                 var stringColumsValue = Console.ReadLine().Split(" ");
