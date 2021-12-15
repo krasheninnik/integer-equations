@@ -11,8 +11,7 @@ namespace IntegerEquationsTest
         const string noSolution = "No solution";
 
 /*   
-2
-3
+2 3
 3 4 0 8
 7 0 5 6
 */
@@ -73,8 +72,7 @@ namespace IntegerEquationsTest
         }
 
         /*
-3
-3
+3 3
 1 0 0 1
 0 2 0 2
 0 0 3 3
@@ -115,8 +113,7 @@ namespace IntegerEquationsTest
         }
 
 /*
-3
-3
+3 3
 0 0 3 3
 0 2 0 2
 1 0 0 1
@@ -157,8 +154,7 @@ namespace IntegerEquationsTest
         }
 
 /*
-3
-3
+3 3
 1 0 1 1
 0 1 0 2
 1 0 1 3
@@ -196,8 +192,7 @@ namespace IntegerEquationsTest
         }
 
 /*
-3
-3
+3 3
 1 0 1 1
 0 1 0 2
 2 0 2 2
@@ -238,8 +233,7 @@ namespace IntegerEquationsTest
         }
 
         /*
-2
-3
+2 3
 1 0 1 1
 0 1 0 2
         */
@@ -274,8 +268,7 @@ namespace IntegerEquationsTest
         }
 
 /*
-2
-3
+2 3
 1 0 1 1
 0 1 -1 2
 */
@@ -310,8 +303,7 @@ namespace IntegerEquationsTest
         }
 
 /*
-2
-3
+2 3
 1 1 1 1
 2 2 2 4
 */
@@ -343,8 +335,7 @@ namespace IntegerEquationsTest
         }
 
         /*
-2
-3
+2 3
 1 1 10 2
 2 2 10 4
 */
@@ -380,8 +371,7 @@ namespace IntegerEquationsTest
 
 
 /*
-5
-3
+5 3
 1 1 10 2
 2 2 10 4
 3 3 10 6
@@ -435,8 +425,7 @@ namespace IntegerEquationsTest
         }
 
 /*
-1
-1
+1 1
 1 5
 */
         [TestMethod]
@@ -461,8 +450,7 @@ namespace IntegerEquationsTest
         }
 
 /*
-3
-3
+3 3
 0 0 0 0
 0 0 0 0
 0 0 0 0

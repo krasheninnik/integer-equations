@@ -14,8 +14,10 @@ namespace IntegerEquations
         static void Main(string[] args)
         {
             // read info
-            int equalsNumber = Convert.ToInt32(Console.ReadLine()); // equations amount
-            int unknowsNumber = Convert.ToInt32(Console.ReadLine()); // unknows amount
+            var inputParams = Console.ReadLine().Split(" ");
+
+            int equalsNumber = Convert.ToInt32(inputParams[0]); // equations amount
+            int unknowsNumber = Convert.ToInt32(inputParams[1]);  // unknows amount
 
             int[,] matrix = new int[equalsNumber + unknowsNumber, unknowsNumber + 1];
 
